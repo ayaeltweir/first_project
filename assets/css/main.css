@@ -1,0 +1,508 @@
+/*fist header*/
+@import "./base.css";
+
+.header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 22px 0;
+  background-color: #fff;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.header .logo img {
+  width: 35px;
+}
+
+.header .logo a {
+  color: var(--maincolor);
+}
+
+.header .nav a {
+  color: black;
+}
+
+.nav ul {
+  display: flex;
+  gap: 17px;
+  flex-wrap: wrap;
+}
+
+.header .auth a {
+  font-family: var(--subfont);
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.header .auth a:first-of-type {
+  border: 1px solid var(--maincolor);
+  color: var(--maincolor);
+  margin-right: 5px;
+}
+
+.header .auth a:last-of-type {
+  background-color: var(--maincolor);
+  color: white;
+}
+
+/*End Header*/
+/*start begins */
+
+.parg{
+  color: var(--maincolor);
+  font-size: 15px;
+}
+.parg span{
+  font-weight: bold;
+}
+p{
+  color: #969696;
+  font-size: 12px;
+}
+.video p{
+  color: black;
+}
+.begins .row{
+  gap:10px;
+}
+
+.begin-start{
+  display: flex;
+  flex-wrap: wrap;
+
+    width: calc((100% - 10px) / 2);
+    flex-direction: column;
+    align-items: flex-start;
+gap:10px;
+
+}
+.begins{
+  padding:30px 0;
+}
+.all{
+font-size: 60px;
+  font-weight: bold;
+}
+.all span{
+  color: var(--maincolor);
+}
+
+
+.buttons a{
+  border: 1px solid var(--maincolor);
+
+
+}
+
+  
+ 
+
+.begin-end{
+  padding-right: 75px;
+}
+.video{
+  display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap:10px;
+background-color : white;
+
+border-radius: 10px;
+
+}
+
+.buttons{
+display: flex;
+flex-wrap: wrap;
+gap:20px
+
+
+
+
+}
+.buttons a{
+  border: 1px solid var(--maincolor);
+  background-color: var(--maincolor);
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+
+/*End begins */
+
+/*start Forms*/
+.forms{
+  padding: 50px 0;
+  background-color: #F5F5F5;
+
+}
+.part1{
+  border: var(--maincolor) solid 1px;
+  padding: 40px 15px;
+  background-color: var(--maincolor);
+border-radius: 10px;
+margin-left: 8px;
+}
+
+.part1 img{
+width: 40PX;
+height: 40PX;
+border-radius: 50%;
+background-color:white;
+align-items: center;
+
+}
+
+.prof p{
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+}
+.det{
+
+  color: #DDDDDD;
+}
+.operator{
+  margin-left: 1200px;
+  padding-left: 50px;
+}
+
+
+
+
+/*End Forms */
+/*start talking course */
+.talking{
+ 
+  background-color: var(--maincolor);
+}
+.parg1{
+  color: #F0C932;
+}
+.talking .photo{
+margin-left: 50px;
+}
+
+.all1{
+  font-size: 40px;
+  font-weight: bold;
+  color: white
+
+}
+.begin-start1 p{
+color: #DDDDDD;
+}
+.begin-start1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+margin-bottom: 100px;
+margin-right: 150px;
+}
+
+
+.begin-start1 .money{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+
+}
+
+.money .one{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding:50px;
+  color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end talking course */
+/*start course */
+.courses{
+ padding: 40px 0;
+}
+.courses .row{
+gap:20px;
+align-items: flex-start;
+
+}
+.course-items{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc( (100% - 30px) / 2 );
+  gap: 20px;
+}
+.course{
+  width: calc( (100% - 20px) / 2 );
+  box-shadow: 0px 7.437575340270996px 7.437575340270996px rgba(0, 0, 0, 0.05);
+
+
+}
+.course-card{
+  position: relative;
+}
+.course-description{
+  width: calc( (100% - 20px) / 3 );
+
+}
+.course-card img{
+  width: 100%;
+  filter: brightness(60%);
+}
+.course-info{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+color: #fff;
+  
+}
+.course-info span:first-of-type{
+background-color: var(--maincolor);
+padding: 20px;
+}
+
+.course-info span:last-of-type{
+font-size: 20px;
+align-self: flex-end;
+}
+.course-details .soso{
+  color: var(--maincolor);
+}
+.course-details .bobo{
+  color: #969696;
+ 
+}
+
+
+
+
+
+
+
+
+.course-description{
+
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+ gap:20px;
+
+}
+.course-description span{
+  color: var(--maincolor);
+}
+.course-description h2{
+  font-size: 50px;
+  font-weight: 800;
+}
+.course-description a{
+  height:40px;
+  width: 100px;
+color: #fff;
+border: 1px solid var(--maincolor);
+padding: 8px;
+background-color: var(--maincolor);
+border-radius: 5px;
+text-align: center;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end course */
+
+
+
+/*start testimonials */
+
+
+.testimonials h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.testimonials .row {
+  gap: 40px;
+}
+
+
+.testimonials {
+  padding: 50px 0;
+}
+
+
+.testimonial .user-info {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+
+
+
+
+.testimonial {
+  width: calc((100% - 40px) / 2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+ 
+  box-shadow: 0px 8.23719596862793px 8.23719596862793px rgba(0, 0, 0, 0.1);
+  padding: 15px 15px;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.testimonial:after {
+  content: "";
+  border-top: 30px solid #f4f4f4;
+  border-right: 30px solid #f4f4f4;
+  border-left: 30px solid #fff;
+  border-bottom: 30px solid #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.testimonial .user-info .user-data span {
+  color: #969696;
+  font-size: 15px;
+}
+
+.testimonial .grade {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.testimonial q {
+  color: #646464;
+  margin-right: 120px;
+}
+
+.grade {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*end testimonials */
+
+/*Start Footer*/
+.footer {
+  background-color: #393e46;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer .row {
+  gap: 40px;
+}
+
+.footer .footer-start,
+.footer .footer-end {
+  width: calc((100% - 40px) / 2);
+}
+
+.footer .footer-start {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer .footer-start .logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer .footer-start .logo img {
+  width: 35px;
+}
+
+.footer .footer-start .logo a {
+  font-size: 14px;
+}
+
+.footer .footer-start p {
+  color: #f4f4f4;
+  line-height: 18px;
+  font-weight: 200;
+}
+
+.footer .footer-start .icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer .footer-start .icons img {
+  border: 1px solid #fff;
+  width: 15px;
+  height: 15px;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.footer-end .row {
+  align-items: flex-start;
+}
+
+/*End footer*/
